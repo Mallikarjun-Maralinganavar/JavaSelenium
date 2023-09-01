@@ -1,0 +1,96 @@
+Test case 1
+Steps:
+1.Open the browser:https://www.google.com
+2.Navigate to Google
+3.Enter a search query
+4.Click the "Google Search" button
+5.Verify search results page
+
+................................................................................
+
+Test case 2
+Steps:
+1.Open the browser.
+2.Navigate to Amazon
+3.Enter a product search query
+4.Click the "Search" button
+5.Click on a product from the search results.
+6.Add the product to the cart.
+
+................................................................................
+
+Test Case 3
+Steps:
+1. open https://jqueryui.com/ 
+2.click on API documentation
+3. store the Can't find what you're looking for? int the variable
+4.assert stored element with the element on website
+
+................................................................................
+
+Test case 4
+Steps:
+1.Open the browser.
+2.Navigate to Reddit
+3.Click on a subreddit
+4.Scroll down to view posts
+
+................................................................................
+
+Test case 5
+Steps:
+1.Open the browser.
+2.Navigate to Amazon
+3.Enter a product search query.
+
+................................................................................
+
+Test case 6
+Steps:
+1.Open the browser
+2.Click the "Search" button:
+3.Click on a product from the search results
+4.Add the product to the cart
+
+................................................................................
+
+Test case 7
+Steps:
+1.Open the browser.
+2.Navigate to Wikipedia
+3.Enter a search query in the search bar
+4.Press the "Enter" key:
+5.Click on the first search result (an article)
+6.Verify the article's title
+
+................................................................................
+
+
+Test case 8
+Steps:
+1. open https://magento.softwaretestingboard.com/?ref=hackernoon.com
+2. click on sale
+3. go back on home page 
+4. assert home page url and current page url 
+5. assert page title.
+
+................................................................................
+
+ 
+Test Case 9
+Steps:
+1.open https://magento.softwaretestingboard.com/?ref=hackernoon.com
+2.click on gear
+3.print title on console
+
+................................................................................
+
+Test case 10
+Steps:
+1.open https://jqueryui.com/ 
+2.click on droppable
+3. click on view source
+4. print the code
+
+
+ 
