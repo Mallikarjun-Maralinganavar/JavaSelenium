@@ -1,0 +1,78 @@
+{
+  "id": "13a76f88-7e98-465f-8d08-71f362f1d99e",
+  "version": "2.0",
+  "name": "Nitya G Selenium",
+  "url": "https://magento.softwaretestingboard.com/",
+  "tests": [{
+    "id": "53ed5867-0529-4a31-8e31-6ea768cb3270",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "33b3e074-baad-4162-8334-7729cd3099c0",
+    "name": "Test case 1",
+    "commands": [{
+      "id": "40455c78-d9a5-448a-aa68-021308e98dab",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3eb3d73-ef3b-46de-86c1-296c04476ba6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d32bf180-b953-459d-a49d-08dfbca0db1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-3 > span",
+      "targets": [
+        ["css=#ui-id-3 > span", "css:finder"],
+        ["xpath=//a[@id='ui-id-3']/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36422127-4153-4b5d-832d-d0079cbe3f9f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hoodies & Sweatshirts",
+      "targets": [
+        ["linkText=Hoodies & Sweatshirts", "linkText"],
+        ["css=.items:nth-child(2) > .item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hoodies & Sweatshirts')]", "xpath:link"],
+        ["xpath=//main[@id='maincontent']/div[4]/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94617880-1e1e-46c6-b85e-3b6eb48412e6",
+      "comment": "",
+      "command": "select",
+      "target": "id=sorter",
+      "targets": [],
+      "value": "index=2"
+    }, {
+      "id": "836c550c-e61b-4321-a0c2-534a72897675",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=mode-list",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a8715ba2-3715-49f0-b584-f7b92873edb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["53ed5867-0529-4a31-8e31-6ea768cb3270"]
+  }],
+  "urls": ["https://jqueryui.com/", "https://magento.softwaretestingboard.com/"],
+  "plugins": []
+}

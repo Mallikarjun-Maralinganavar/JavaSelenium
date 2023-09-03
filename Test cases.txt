@@ -1,10 +1,9 @@
 Test case 1
 Steps:
-1.Open the browser:https://www.google.com
-2.Navigate to Google
-3.Enter a search query
-4.Click the "Google Search" button
-5.Verify search results page
+1.Open the browser:https://magento.softwaretestingboard.com/
+2.click on What's new,click click on hoodies and sweatshirt                                               
+3.Select the drop down button and choose price
+4.double click to get the grid form
 
 ................................................................................
 
@@ -12,16 +11,16 @@ Test case 2
 Steps:
 1.Open the browser.
 2.Navigate to Amazon
-3.Enter a product search query
-4.Click the "Search" button
-5.Click on a product from the search results.
-6.Add the product to the cart.
+3.Scroll down and back                                                                              
+4.Click on mobile
+5.Select the noise
+6.View the cart.
 
 ................................................................................
 
 Test Case 3
 Steps:
-1. open https://jqueryui.com/ 
+1. open https://jqueryui.com/                                                                                      
 2.click on API documentation
 3. store the Can't find what you're looking for? int the variable
 4.assert stored element with the element on website
@@ -30,45 +29,45 @@ Steps:
 
 Test case 4
 Steps:
-1.Open the browser.
-2.Navigate to Reddit
-3.Click on a subreddit
-4.Scroll down to view posts
+1.Open the browser https://saucelabs.com/
+2.Select request to demo
+3.Enter the details
+4.Scroll down to view 
+5.Enter the submit button
 
 ................................................................................
 
 Test case 5
 Steps:
-1.Open the browser.
-2.Navigate to Amazon
-3.Enter a product search query.
+1.Open the browser https://demo.opencart.com/
+2.Click on desktops and select mac
+3.Select Tablets and add to wishlist and run it within while loop.
 
 ................................................................................
 
 Test case 6
 Steps:
-1.Open the browser
-2.Click the "Search" button:
-3.Click on a product from the search results
-4.Add the product to the cart
+1.Navigate the browser https://www.etsy.com
+2.Search for jewellary in search bar
+3.Select the item
+4.Select the drop down button of color and No. of birth stones                                        
+5.Select the drop down button of size of necklace
+6.Add the material to the bag
 
 ................................................................................
 
 Test case 7
 Steps:
-1.Open the browser.
-2.Navigate to Wikipedia
-3.Enter a search query in the search bar
-4.Press the "Enter" key:
-5.Click on the first search result (an article)
-6.Verify the article's title
+1.Open the browser https://www.etsy.com/in-en/search?q=jewellary&ref=auto-1&as_prefix=jewe          
+2.set the window size
+3.Write the title in console using the java script command
 
 ................................................................................
 
 
 Test case 8
 Steps:
-1. open https://magento.softwaretestingboard.com/?ref=hackernoon.com
+1. open https://magento.softwaretestingboard.com/?ref=hackernoon.com                                      
 2. click on sale
 3. go back on home page 
 4. assert home page url and current page url 
@@ -79,7 +78,7 @@ Steps:
  
 Test Case 9
 Steps:
-1.open https://magento.softwaretestingboard.com/?ref=hackernoon.com
+1.open https://magento.softwaretestingboard.com/?ref=hackernoon.com                                            
 2.click on gear
 3.print title on console
 
@@ -88,9 +87,9 @@ Steps:
 Test case 10
 Steps:
 1.open https://jqueryui.com/ 
-2.click on droppable
-3. click on view source
-4. print the code
+2.click on resizable 
+3. click on add class 
+4.select the frame and make the changes                                                                              
 
 
  
