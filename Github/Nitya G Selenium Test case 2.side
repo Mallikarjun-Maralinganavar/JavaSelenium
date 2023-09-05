@@ -1,0 +1,180 @@
+{
+  "id": "13a76f88-7e98-465f-8d08-71f362f1d99e",
+  "version": "2.0",
+  "name": "Nitya G Selenium",
+  "url": "https://www.amazon.in/",
+  "tests": [{
+    "id": "53ed5867-0529-4a31-8e31-6ea768cb3270",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "33b3e074-baad-4162-8334-7729cd3099c0",
+    "name": "Test case 1",
+    "commands": [{
+      "id": "40455c78-d9a5-448a-aa68-021308e98dab",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3eb3d73-ef3b-46de-86c1-296c04476ba6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d32bf180-b953-459d-a49d-08dfbca0db1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-3 > span",
+      "targets": [
+        ["css=#ui-id-3 > span", "css:finder"],
+        ["xpath=//a[@id='ui-id-3']/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36422127-4153-4b5d-832d-d0079cbe3f9f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hoodies & Sweatshirts",
+      "targets": [
+        ["linkText=Hoodies & Sweatshirts", "linkText"],
+        ["css=.items:nth-child(2) > .item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hoodies & Sweatshirts')]", "xpath:link"],
+        ["xpath=//main[@id='maincontent']/div[4]/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94617880-1e1e-46c6-b85e-3b6eb48412e6",
+      "comment": "",
+      "command": "select",
+      "target": "id=sorter",
+      "targets": [],
+      "value": "index=2"
+    }, {
+      "id": "836c550c-e61b-4321-a0c2-534a72897675",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=mode-list",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "122b730d-25c1-4daa-8bb6-d3b6c8130cec",
+    "name": "Test case 2",
+    "commands": [{
+      "id": "ca73c1a8-8bab-4f9a-a5bd-283de2a168e6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4cf8975-b9db-42be-8e07-0623036bb828",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f97e48e4-a1cc-4d3e-80f1-ec2f8766a5a2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1992)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f40f111-75c1-4cf4-94b4-a0295014b81c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4967.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4a76e7b-35e6-40ec-8fad-03cb9e0f74f4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.action-inner",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "744127d8-8ab6-4fcf-8b77-ae812d316213",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-inner",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4795a93-983d-4ed7-a33c-a4ce5af5876e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,62.66666793823242)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f2632a1-64e9-44a4-aa6b-52fb95a4df98",
+      "comment": "",
+      "command": "executeScript",
+      "target": "history. back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8253f4e-d7fb-4489-97c9-cab276085b57",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4967.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb35f3c5-d063-4e8c-90b6-942e7f375bde",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1992)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68b85eab-8ee4-4994-af5d-0830bc6f25f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51f124d5-3469-407b-93f7-e86aaf41a58e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobiles",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3450d94b-5ce4-455c-b048-bed60b66445d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.a-section:nth-child(5) .a-spacing-micro:nth-child(7) .a-icon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1390e6fe-1936-4a0e-ac23-efe61f3c1260",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-cart-icon",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a8715ba2-3715-49f0-b584-f7b92873edb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["53ed5867-0529-4a31-8e31-6ea768cb3270"]
+  }],
+  "urls": ["https://jqueryui.com/", "https://magento.softwaretestingboard.com/", "https://www.amazon.in/"],
+  "plugins": []
+}

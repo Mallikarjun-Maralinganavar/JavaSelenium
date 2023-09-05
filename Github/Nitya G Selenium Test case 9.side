@@ -1,0 +1,405 @@
+{
+  "id": "13a76f88-7e98-465f-8d08-71f362f1d99e",
+  "version": "2.0",
+  "name": "Nitya G Selenium",
+  "url": "https://jqueryui.com/",
+  "tests": [{
+    "id": "53ed5867-0529-4a31-8e31-6ea768cb3270",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "33b3e074-baad-4162-8334-7729cd3099c0",
+    "name": "Test case 1",
+    "commands": [{
+      "id": "40455c78-d9a5-448a-aa68-021308e98dab",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3eb3d73-ef3b-46de-86c1-296c04476ba6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d32bf180-b953-459d-a49d-08dfbca0db1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-3 > span",
+      "targets": [
+        ["css=#ui-id-3 > span", "css:finder"],
+        ["xpath=//a[@id='ui-id-3']/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36422127-4153-4b5d-832d-d0079cbe3f9f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hoodies & Sweatshirts",
+      "targets": [
+        ["linkText=Hoodies & Sweatshirts", "linkText"],
+        ["css=.items:nth-child(2) > .item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Hoodies & Sweatshirts')]", "xpath:link"],
+        ["xpath=//main[@id='maincontent']/div[4]/div[2]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94617880-1e1e-46c6-b85e-3b6eb48412e6",
+      "comment": "",
+      "command": "select",
+      "target": "id=sorter",
+      "targets": [],
+      "value": "index=2"
+    }, {
+      "id": "836c550c-e61b-4321-a0c2-534a72897675",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=mode-list",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "122b730d-25c1-4daa-8bb6-d3b6c8130cec",
+    "name": "Test case 2",
+    "commands": [{
+      "id": "ca73c1a8-8bab-4f9a-a5bd-283de2a168e6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4cf8975-b9db-42be-8e07-0623036bb828",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f97e48e4-a1cc-4d3e-80f1-ec2f8766a5a2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1992)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f40f111-75c1-4cf4-94b4-a0295014b81c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4967.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4a76e7b-35e6-40ec-8fad-03cb9e0f74f4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.action-inner",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "744127d8-8ab6-4fcf-8b77-ae812d316213",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-inner",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4795a93-983d-4ed7-a33c-a4ce5af5876e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,62.66666793823242)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f2632a1-64e9-44a4-aa6b-52fb95a4df98",
+      "comment": "",
+      "command": "executeScript",
+      "target": "history. back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8253f4e-d7fb-4489-97c9-cab276085b57",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4967.33349609375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb35f3c5-d063-4e8c-90b6-942e7f375bde",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1992)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68b85eab-8ee4-4994-af5d-0830bc6f25f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51f124d5-3469-407b-93f7-e86aaf41a58e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobiles",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3450d94b-5ce4-455c-b048-bed60b66445d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.a-section:nth-child(5) .a-spacing-micro:nth-child(7) .a-icon",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1390e6fe-1936-4a0e-ac23-efe61f3c1260",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-cart-icon",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7d90b9c3-0153-40bc-a94b-c76575226b81",
+    "name": "Test case 3",
+    "commands": [{
+      "id": "dead3e8c-2274-4fdf-81fa-53d938e5ce54",
+      "comment": "",
+      "command": "open",
+      "target": "https://jqueryui.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73530ee2-cef2-47ff-9326-47cb7ebe6358",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d52c6b6d-d1e3-41dd-b97b-90e117dff44c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=API Documentation",
+      "targets": [
+        ["linkText=API Documentation", "linkText"],
+        ["css=.menu-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'API Documentation')]", "xpath:link"],
+        ["xpath=//ul[@id='menu-top']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://api.jqueryui.com/')]", "xpath:href"],
+        ["xpath=//div/nav/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'API Documentation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f64944-0c9e-44ce-b3db-356a5bd2d3fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=jQuery UI 1.12 API Documentation",
+      "targets": [
+        ["linkText=jQuery UI 1.12 API Documentation", "linkText"],
+        ["css=ul:nth-child(10) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'jQuery UI 1.12 API Documentation')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/1.12/')]", "xpath:href"],
+        ["xpath=//div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'jQuery UI 1.12 API Documentation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81fad1b8-9944-402c-b5b3-d2bed4910042",
+      "comment": "",
+      "command": "executeScript",
+      "target": "history.back()",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7524eaa2-98d2-4da5-b1b9-14675324bf20",
+    "name": "Test case 6",
+    "commands": [{
+      "id": "26037045-ca2d-49a0-8e1c-76c80f73330c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.etsy.com/in-en/search?q=jewellary&ref=auto-1&as_prefix=jewe",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57e9421e-8061-49aa-81e1-e2270fc0eac7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=global-enhancements-search-query",
+      "targets": [],
+      "value": "jewellary"
+    }, {
+      "id": "4cb6e9c7-2af8-4fcf-9c4e-b94f5cc2fd10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wt-block-grid__item:nth-child(1) .v2-listing-card__info> .wt-text-caption",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5401b46-b079-4202-9887-c6ac8c091f22",
+      "comment": "",
+      "command": "select",
+      "target": "id=variation-selector-0",
+      "targets": [
+        ["id=variation-selector-0", "id"],
+        ["css=#variation-selector-0", "css:finder"],
+        ["xpath=//select[@id='variation-selector-0']", "xpath:attributes"],
+        ["xpath=//div[@id='listing-page-cart']/div[6]/div/div/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "index=1"
+    }, {
+      "id": "62b867b6-5f90-4364-9e39-86611ab518be",
+      "comment": "",
+      "command": "select",
+      "target": "id=variation-selector-1",
+      "targets": [
+        ["id=variation-selector-1", "id"],
+        ["css=#variation-selector-1", "css:finder"],
+        ["xpath=//select[@id='variation-selector-1']", "xpath:attributes"],
+        ["xpath=//div[@id='listing-page-cart']/div[6]/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": "index=1"
+    }, {
+      "id": "1c8a4cad-2d87-4c31-9493-8623b74bbd31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wt-width-full> .wt-btn--filled",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cbd1a95-38b4-4c41-ad43-9d61da19ff08",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c381905f-7d3a-49ef-8319-2f28fda5a60d",
+    "name": "Test case 8",
+    "commands": [{
+      "id": "ddf8ff36-110e-46a8-bbfc-c866b628e75c",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4e96ba4-e6ce-4628-bbc9-bb4fb15c07c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6db87496-f7ad-43fe-9474-1d423b61755c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-6 > span:nth-child(2)",
+      "targets": [
+        ["css=#ui-id-6 > span:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='ui-id-6']/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Gear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f912e59-fff9-47ce-915e-c65b7a4ae49b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "history.back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "197902cc-b4c9-4298-8957-5f6c75e3609d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window. location. href",
+      "targets": [],
+      "value": "text1"
+    }, {
+      "id": "1dc421a4-56ec-4a9d-be0c-3b88a345cff5",
+      "comment": "",
+      "command": "echo",
+      "target": "${text1}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e38dddb9-ecd7-4300-ba0f-7f91743cea90",
+    "name": "Test case 9",
+    "commands": [{
+      "id": "52d5ef92-5bb1-4c5a-9e33-ea3ae82e24ed",
+      "comment": "",
+      "command": "open",
+      "target": "https://magento.softwaretestingboard.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edd70dc7-dc71-489d-8df6-90fb87759dc0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a82a18d7-19cb-46e9-a1b8-6636f71e3dc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-3 > span",
+      "targets": [
+        ["css=#ui-id-3 > span", "css:finder"],
+        ["xpath=//a[@id='ui-id-3']/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5932316-831e-4ac7-b6af-dc6319956d3a",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "text1"
+    }, {
+      "id": "acdfcefb-2cc5-4258-b0ef-00812252b395",
+      "comment": "",
+      "command": "echo",
+      "target": "${text1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9476ccb6-97e0-499b-b1ca-81f46f92cc93",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "aaa1975a-4eda-41d1-a75d-7bba8981fa48",
+    "name": "Test case 10",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "a8715ba2-3715-49f0-b584-f7b92873edb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["53ed5867-0529-4a31-8e31-6ea768cb3270"]
+  }],
+  "urls": ["https://jqueryui.com/", "https://magento.softwaretestingboard.com/", "https://www.amazon.in/", "https://www.etsy.com/", "https://www.etsy.com/in-en/search?q=jewellary&ref=auto-1&as_prefix=jewe"],
+  "plugins": []
+}
